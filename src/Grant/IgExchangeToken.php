@@ -6,8 +6,6 @@ use League\OAuth2\Client\Grant\AbstractGrant;
 
 /**
  * An Instagram long lived exchange token grant
- *
- * @author Andy Hartley <andy.hartley@soright.co.uk>
  */
 class IgExchangeToken extends AbstractGrant
 {

@@ -20,7 +20,6 @@ class Instagram extends LeagueInstagram
      * The access token method
      *
      * @var string
-     * @author Andy Hartley <andy.hartley@soright.co.uk>
      */
     protected $accessTokenMethod = self::METHOD_POST;
 

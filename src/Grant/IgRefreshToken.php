@@ -6,8 +6,6 @@ use League\OAuth2\Client\Grant\AbstractGrant;
 
 /**
  * An Instagram long lived refresh token grant
- *
- * @author Andy Hartley <andy.hartley@soright.co.uk>
  */
 class IgRefreshToken extends AbstractGrant
 {
