@@ -1,5 +1,5 @@
 # Extended Instagram Provider for OAuth 2.0 Client
-This extends the offical [The PHP League Instagram provider](https://github.com/thephpleague/oauth2-instagram) for the OAuth 2.0 Client. The offical provider allows a user to authenticate with OAuth to get a code, and exchange that for a _short lived_ token to access the Instagram API, but this only lasts around an hour and can't be renewed for another short lived toaken. However, Instagram allows you to swap that short lived token for a _long lived_ token (up to 60 days), and renew that token for as long as you have permissions for that user.
+This extends the official [The PHP League Instagram provider](https://github.com/thephpleague/oauth2-instagram) for the OAuth 2.0 Client. The official provider allows a user to authenticate with OAuth to get a code, and exchange that for a _short lived_ token to access the Instagram API, but this only lasts around an hour and can't be renewed for another short lived toaken. However, Instagram allows you to swap that short lived token for a _long lived_ token (up to 60 days), and renew that token for as long as you have permissions for that user.
 
 This package adds extends the provider with new methods, first to swap a short lived token for a long lived one, and second to renew that long lived token.
 
