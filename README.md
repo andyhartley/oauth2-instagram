@@ -36,3 +36,7 @@ $newAccessToken = $provider->refreshLongLivedToken([
 ## License
 
 The MIT License (MIT). The licence is included in this package.
+
+## Feedback Welcome
+
+<p class="callout info">Whilst I've been a professional developer for a decade, this is my first public package. All comments and feedback are welcome.</p>
